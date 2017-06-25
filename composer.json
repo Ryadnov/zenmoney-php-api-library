@@ -1,0 +1,24 @@
+{
+    "name": "ryadnov/zenmoney-php-api-library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryadnov Andrey",
+            "email": "me@ryadnov.ru",
+            "homepage": "https://ryadnov.ru/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ryadnov\\ZenMoney\\Api\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.3",
+        "symfony/options-resolver": "~3.3"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
