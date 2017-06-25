@@ -2,7 +2,7 @@
 
 To receive a `consumer_key` and `consumer_secret`, register a new application at http://developers.zenmoney.ru/index.html
 
-```
+```php
 use Ryadnov\ZenMoney\Api\Auth\OAuth2;
 use Ryadnov\ZenMoney\Api\V8\RequestDiff;
 
@@ -20,5 +20,4 @@ $request = new RequestDiff([
 $data    = $request->execute([
     'serverTimestamp' => 0, // first sync
 ]);
-
 ```
